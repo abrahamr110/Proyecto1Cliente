@@ -1,43 +1,43 @@
 ## ✍🏻 Análisis de los Modelos de Ejecución Cliente/Servidor
 #### En el desarrollo de aplicaciones web, existen dos modelos principales de ejecución: Client-Side Rendering (CSR) y Server-Side Rendering (SSR). Cada uno tiene ventajas y desventajas dependiendo del caso de uso y la arquitectura de la aplicación.
 
-### Client-Side Rendering (CSR):
+#### Client-Side Rendering (CSR):
 * En CSR, el contenido HTML se genera en el cliente, es decir, en el navegador del usuario. Cuando se realiza una solicitud de página, el servidor envía un archivo HTML básico junto con archivos JavaScript que luego crean dinámicamente la interfaz de usuario.
 * Ejemplo: Aplicaciones creadas con React sin SSR utilizan CSR. La carga inicial puede ser lenta, pero una vez que se ha descargado el código JavaScript, la experiencia del usuario es más interactiva.
 * Ventajas: Mayor interactividad, mejor experiencia de usuario después de la carga inicial.
 * Desventajas: Mala optimización para motores de búsqueda (SEO) y tiempos de carga inicial más lentos.
 
-## Comparación:
+#### Comparación:
 * CSR es ideal para aplicaciones que requieren mucha interactividad en el cliente, como paneles de control o aplicaciones SPA (Single Page Application).
 * SSR es más adecuado para aplicaciones donde el SEO es crucial, como sitios web de comercio electrónico o plataformas como TicketHub, donde los eventos deben ser fácilmente rastreados por motores de búsqueda y las páginas deben cargarse rápidamente.
 
-## Server-Side Rendering (SSR):
+#### Server-Side Rendering (SSR):
 * En SSR, las páginas se renderizan en el servidor y se envían al navegador del usuario como HTML completo. Esto reduce el tiempo de carga inicial y mejora el SEO, ya que los motores de búsqueda pueden leer el contenido renderizado.
 * Ejemplo: Usar Next.js con React para generar el HTML en el servidor antes de enviarlo al cliente.
 * Ventajas: Mejor SEO, tiempos de carga inicial más rápidos, especialmente útil para contenido dinámico.
 * Desventajas: Requiere más recursos en el servidor, lo que puede ser costoso en grandes aplicaciones.
 
-# 📄 Evaluación de los Lenguajes de Programación Web Seleccionados
-## JavaScript
+## 📄 Evaluación de los Lenguajes de Programación Web Seleccionados
+#### JavaScript
 * Ventajas: Es el lenguaje por excelencia para desarrollo frontend, siendo compatible con todos los navegadores y muy flexible. Permite la creación de aplicaciones interactivas en tiempo real.
 * Desventajas: Al ser interpretado en el navegador, puede experimentar problemas de rendimiento en aplicaciones de gran escala si no se optimiza correctamente. También puede ser difícil de depurar en entornos más grandes.
 
-## TypeScript
+#### TypeScript
 * Ventajas: Añade tipado estático a JavaScript, lo que ayuda a evitar errores en tiempo de desarrollo y mejora la escalabilidad del código. Facilita la colaboración en proyectos grandes y mantiene el código más limpio y organizado.
 * Desventajas: Tiene una curva de aprendizaje más pronunciada, especialmente para desarrolladores que solo están acostumbrados a JavaScript. También puede aumentar el tiempo de desarrollo inicial debido al tipado explícito.
 
-## Comparación
+#### Comparación
 * JavaScript es más ágil para prototipos y proyectos pequeños, mientras que TypeScript es más adecuado para aplicaciones grandes y proyectos donde se busca minimizar errores de producción y mejorar la mantenibilidad del código.
 
 ## 🌐 Estudio sobre la Compatibilidad en Navegadores
 #### Uno de los retos más grandes en el desarrollo web es la compatibilidad entre navegadores, ya que no todos los navegadores interpretan el código JavaScript de la misma manera.
 
-## Problemas comunes
+#### Problemas comunes
 * Soporte limitado de ciertas API de JavaScript en navegadores más antiguos (como Internet Explorer).
 * Diferencias en el manejo del DOM y de los eventos entre navegadores.
 * Incompatibilidad con tecnologías modernas, como ES6 o ES7, en versiones más antiguas de navegadores.
 
-## Soluciones:
+#### Soluciones:
 * Utilizar polyfills: Estos fragmentos de código permiten usar funciones modernas en navegadores que no las soportan nativamente. Por ejemplo, Babel transpila el código moderno de JavaScript a versiones anteriores compatibles con todos los navegadores.
 * Herramientas como Can I Use pueden ser útiles para verificar el soporte de las características de JavaScript en diferentes navegadores.
 * Usar frameworks como React o Next.js, que optimizan automáticamente el código para asegurar que funcione en la mayoría de los navegadores.
