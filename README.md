@@ -6,7 +6,14 @@
 ### 🕴️ Audiencia objetivo
 * Nuestro público objetivo son personas interesadas en asistir a eventos en vivo, como conciertos, partidos deportivos, obras de teatro y festivales. La aplicación está dirigida a usuarios de entre 18 y 45 años, que prefieren realizar sus compras en línea y también a aquellos que desean vender entradas de forma segura, evitando fraudes comunes en la reventa de tickets.
 
-### 📄 Características
+### 📊 Análisis de mercado
+#### TicketHub compite con plataformas como StubHub, Ticketmaster y Vivid Seats, que suelen tener comisiones elevadas y una experiencia de usuario deficiente. Para diferenciarse, TicketHub ofrecerá:
+* Comisiones más bajas, atrayendo a compradores y vendedores con tarifas competitivas.
+* Interfaz simple y fluida, enfocada en una experiencia rápida y fácil de usar.
+* Verificación de entradas mediante blockchain para garantizar la autenticidad y prevenir fraudes.
+* Personalización avanzada, con recomendaciones basadas en los intereses y la ubicación del usuario.
+
+### 📄 Funcionalidades clave
 * Autenticación de usuarios: Registro e inicio de sesión mediante correo electrónico o redes sociales.
 * Gestión de eventos: Búsqueda de eventos por categorías, ubicación, fechas o precios.
 * Compra de entradas: Integración con plataformas de pago seguras como PayPal y Stripe.
@@ -14,6 +21,16 @@
 * Reseñas y calificaciones: Sistema para calificar vendedores y compradores.
 * Notificaciones personalizadas: Alertas de eventos cercanos y recomendaciones basadas en preferencias del usuario.
 * Seguridad: Encriptación de datos y autenticación de dos factores para garantizar transacciones seguras.
+
+### ⚙️ Modelos de ejecución
+#### La aplicación utiliza una combinación de Server-Side Rendering (SSR) y Client-Side Rendering (CSR):
+* SSR permite una carga inicial rápida de las páginas y mejora el SEO.
+* CSR ofrece una experiencia más dinámica e interactiva en el cliente una vez que la página está cargada.
+
+### ⌨️ Lenguajes de programación
+#### JavaScript y TypeScript
+* JavaScript: Es el estándar de la web para interacciones rápidas y en tiempo real.
+* TypeScript: Aporta tipado estático, lo que mejora la seguridad y escalabilidad del código en aplicaciones grandes.
 
 ### 🧑🏻‍💻 Tecnologías utilizadas:
 #### Frontend
@@ -26,16 +43,6 @@
 
 #### Justificación
 * Las tecnologías seleccionadas, como React, Next.js, Node.js y MongoDB, permiten crear una aplicación escalable y de alto rendimiento, con una experiencia de usuario fluida y segura.
-
-### ⚙️ Modelos de ejecución
-#### La aplicación utiliza una combinación de Server-Side Rendering (SSR) y Client-Side Rendering (CSR):
-* SSR permite una carga inicial rápida de las páginas y mejora el SEO.
-* CSR ofrece una experiencia más dinámica e interactiva en el cliente una vez que la página está cargada.
-
-### ⌨️ Lenguajes de programación
-#### JavaScript y TypeScript
-* JavaScript: Es el estándar de la web para interacciones rápidas y en tiempo real.
-* TypeScript: Aporta tipado estático, lo que mejora la seguridad y escalabilidad del código en aplicaciones grandes.
 
 ### 📄 Integración de Lenguajes
 #### HTML: Se utiliza para la estructura de la aplicación.
