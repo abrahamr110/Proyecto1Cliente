@@ -17,7 +17,7 @@
 * Ventajas: Mejor SEO, tiempos de carga inicial más rápidos, especialmente útil para contenido dinámico.
 * Desventajas: Requiere más recursos en el servidor, lo que puede ser costoso en grandes aplicaciones.
 
-# 🌐 Evaluación de los Lenguajes de Programación Web Seleccionados
+# 📄 Evaluación de los Lenguajes de Programación Web Seleccionados
 ## JavaScript
 * Ventajas: Es el lenguaje por excelencia para desarrollo frontend, siendo compatible con todos los navegadores y muy flexible. Permite la creación de aplicaciones interactivas en tiempo real.
 * Desventajas: Al ser interpretado en el navegador, puede experimentar problemas de rendimiento en aplicaciones de gran escala si no se optimiza correctamente. También puede ser difícil de depurar en entornos más grandes.
@@ -42,14 +42,14 @@
 * Herramientas como Can I Use pueden ser útiles para verificar el soporte de las características de JavaScript en diferentes navegadores.
 * Usar frameworks como React o Next.js, que optimizan automáticamente el código para asegurar que funcione en la mayoría de los navegadores.
 
-# 🌐 Mecanismos de Integración de los Lenguajes de Marcas con los Lenguajes de Programación
+# 🧑🏿‍💻 Mecanismos de Integración de los Lenguajes de Marcas con los Lenguajes de Programación
 #### En aplicaciones web modernas, los lenguajes de marcas como HTML se combinan estrechamente con los lenguajes de programación, como JavaScript.
 
 * HTML es la base estructural de cualquier página web, y se complementa con JavaScript para la manipulación dinámica del DOM. Esto permite cambiar el contenido, estilo y estructura de una página web sin tener que recargarla por completo.
 * En React, el uso de JSX (una extensión de JavaScript que permite escribir código HTML dentro de JavaScript) facilita la integración del HTML y la lógica de la aplicación.
 * Next.js lleva esto un paso más allá, permitiendo renderizar contenido dinámico del lado del servidor (SSR) y luego actualizar la página de manera interactiva en el cliente (CSR).
 
-# Evaluación de Herramientas de Programación para Clientes Web
+# ⌨️ Evaluación de Herramientas de Programación para Clientes Web
 * VSCode: Es uno de los editores de código más populares, con soporte para JavaScript, TypeScript y React. Además, cuenta con una gran cantidad de extensiones que facilitan el desarrollo, como linters, autoformateadores y depuradores.
   * Ventajas: Seguimiento de cambios, facilidad para colaborar en ramas, integración con CI/CD.
 * Webpack: Es una herramienta de empaquetado de módulos que agrupa archivos JavaScript, CSS y otros recursos en paquetes optimizados para el navegador.
@@ -57,7 +57,7 @@
 * Postman: Herramienta para probar y verificar APIs. Ayuda a simular solicitudes HTTP y verificar el correcto funcionamiento de los endpoints del backend.
   * Ventajas: Fácil de usar, permite automatizar pruebas, ideal para verificar integraciones de frontend y backend.
 
-#  Análisis de Mercado y Propuesta de Diferenciación
+# 📊 Análisis de Mercado y Propuesta de Diferenciación
 #### TicketHub compite en un mercado donde existen competidores bien establecidos como StubHub, Ticketmaster y Vivid Seats. Estas plataformas ofrecen una funcionalidad similar, pero presentan desventajas en áreas clave que TicketHub buscará mejorar:
 * Comisiones más bajas: Muchas plataformas existentes cobran tarifas elevadas tanto a compradores como a vendedores. TicketHub ofrecerá tarifas más competitivas, atrayendo a ambos públicos.
 * Interfaz simple y fluida: A diferencia de la sobrecarga visual y la complejidad de algunas plataformas, TicketHub se centrará en una interfaz optimizada y amigable para mejorar la experiencia del usuario.
