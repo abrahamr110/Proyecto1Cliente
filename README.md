@@ -37,18 +37,18 @@
 * JavaScript: Es el estándar de la web para interacciones rápidas y en tiempo real.
 * TypeScript: Aporta tipado estático, lo que mejora la seguridad y escalabilidad del código en aplicaciones grandes.
 
-###  Integración de Lenguajes
+### 📄 Integración de Lenguajes
 #### HTML: Se utiliza para la estructura de la aplicación.
 * JavaScript/React: Se utiliza para gestionar la lógica de la aplicación y la manipulación del DOM de manera dinámica.
 * Next.js (SSR): Renderiza el HTML en el servidor para mejorar la velocidad de carga y el SEO.
 
-### Herramientas de Desarrollo
+### 🧑🏿‍💻 Herramientas de Desarrollo
 * VSCode: Editor de código ligero con soporte para JavaScript, TypeScript y React.
 * GitHub: Para el control de versiones y la colaboración entre desarrolladores.
 * Postman: Para la verificación y pruebas de las APIs.
 * Webpack: Para optimizar el empaquetado de JavaScript y CSS en la aplicación.
 
-### Compatibilidad en Navegadores
+### 🌐 Compatibilidad en Navegadores
 #### La aplicación está diseñada para ser compatible con todos los navegadores modernos (Chrome, Firefox, Edge, Safari). Para garantizar esta compatibilidad:
 * Se utilizarán polyfills para asegurarse de que las nuevas características de JavaScript funcionen en navegadores más antiguos.
 * Babel ayudará a convertir el código JavaScript moderno en versiones compatibles.
