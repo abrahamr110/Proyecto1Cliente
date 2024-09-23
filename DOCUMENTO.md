@@ -1,7 +1,7 @@
 # TicketHub - Plataforma de Compra y Venta de Entradas 🎟️
 
 ## ✍🏻 Descripción
-* TicketHub es una plataforma web diseñada para ofrecer una forma sencilla y eficiente de comprar y vender entradas para eventos en vivo, tales como conciertos, deportes, teatro y más. Los usuarios pueden buscar eventos, comparar precios, comprar entradas directamente y revender sus propias entradas de forma segura. Nuestro objetivo es facilitar el acceso a eventos de entretenimiento con una experiencia de usuario optimizada, centrada en la seguridad de las transacciones y la diversidad de eventos.
+* TicketHub es una plataforma web destinada a la compra y venta de entradas para eventos en vivo como conciertos, deportes, teatro y más. El propósito de TicketHub es ofrecer una experiencia de usuario rápida, segura y sencilla tanto para quienes compran como para quienes revenden entradas. El enfoque principal es reducir el riesgo de fraude, optimizar la usabilidad del sistema y proporcionar un acceso fácil a una amplia variedad de eventos, con un sistema de transacciones seguras.
 
 ## 🕴️ Audiencia objetivo
 * Nuestro público objetivo son personas interesadas en asistir a eventos en vivo, como conciertos, partidos deportivos, obras de teatro y festivales. La aplicación está dirigida a usuarios de entre 18 y 45 años, que prefieren realizar sus compras en línea y también a aquellos que desean vender entradas de forma segura, evitando fraudes comunes en la reventa de tickets.
@@ -22,15 +22,6 @@
 * Notificaciones personalizadas: Alertas de eventos cercanos y recomendaciones basadas en preferencias del usuario.
 * Seguridad: Encriptación de datos y autenticación de dos factores para garantizar transacciones seguras.
 
-## ⚙️ Modelos de ejecución
-#### La aplicación utiliza una combinación de Server-Side Rendering (SSR) y Client-Side Rendering (CSR):
-* SSR permite una carga inicial rápida de las páginas y mejora el SEO.
-* CSR ofrece una experiencia más dinámica e interactiva en el cliente una vez que la página está cargada.
-
-## ⌨️ Lenguajes de programación
-#### JavaScript
-* JavaScript: Es el estándar de la web para interacciones rápidas y en tiempo real.
-
 ## 🧑🏻‍💻 Tecnologías utilizadas:
 #### Frontend
 * React con Next.js para el soporte de Server-Side Rendering (SSR), lo que mejora la velocidad de carga y el SEO.
@@ -41,21 +32,6 @@
 * MongoDB (NoSQL) como base de datos, ideal para manejar grandes volúmenes de datos no estructurados.
 
 #### Justificación
-* Las tecnologías seleccionadas, como React, Next.js, Node.js y MongoDB, permiten crear una aplicación escalable y de alto rendimiento, con una experiencia de usuario fluida y segura.
-
-## 📄 Integración de Lenguajes
-#### HTML: Se utiliza para la estructura de la aplicación.
-* JavaScript: Se utiliza para gestionar la lógica de la aplicación y la manipulación del DOM de manera dinámica.
-* Next.js: Renderiza el HTML en el servidor para mejorar la velocidad de carga y el SEO.
-
-## 🧑🏿‍💻 Herramientas de Desarrollo
-* VSCode: Editor de código ligero con soporte para JavaScript, TypeScript y React.
-* GitHub: Para el control de versiones y la colaboración entre desarrolladores.
-* Postman: Para la verificación y pruebas de las APIs.
-* Webpack: Para optimizar el empaquetado de JavaScript y CSS en la aplicación.
-
-## 🌐 Compatibilidad en Navegadores
-#### La aplicación está diseñada para ser compatible con todos los navegadores modernos (Chrome, Firefox, Edge, Safari). Para garantizar esta compatibilidad:
-* Se utilizarán polyfills para asegurarse de que las nuevas características de JavaScript funcionen en navegadores más antiguos.
-* Babel ayudará a convertir el código JavaScript moderno en versiones compatibles.
-* Tailwind CSS asegura la compatibilidad con la mayoría de los navegadores y facilita el diseño responsivo.
+* React y Next.js: Estas tecnologías proporcionan una gran experiencia de usuario gracias a la rapidez y fluidez de la interfaz. Next.js ofrece ventajas adicionales como el Server-Side Rendering (SSR), lo que mejora tanto la velocidad como la optimización en motores de búsqueda (SEO).
+* Node.js y Express: Node.js es perfecto para manejar grandes cantidades de solicitudes en tiempo real, ideal para un sistema que involucra compra y reventa de entradas. Además, es rápido y escalable, lo que lo convierte en una opción sólida para el backend.
+* MongoDB: Su flexibilidad permite almacenar datos estructurados y no estructurados con facilidad, como el historial de compra de los usuarios y las reseñas de eventos.
