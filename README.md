@@ -28,9 +28,8 @@
 * CSR ofrece una experiencia más dinámica e interactiva en el cliente una vez que la página está cargada.
 
 ## ⌨️ Lenguajes de programación
-#### JavaScript y TypeScript
+#### JavaScript
 * JavaScript: Es el estándar de la web para interacciones rápidas y en tiempo real.
-* TypeScript: Aporta tipado estático, lo que mejora la seguridad y escalabilidad del código en aplicaciones grandes.
 
 ## 🧑🏻‍💻 Tecnologías utilizadas:
 #### Frontend
@@ -46,8 +45,8 @@
 
 ## 📄 Integración de Lenguajes
 #### HTML: Se utiliza para la estructura de la aplicación.
-* JavaScript/React: Se utiliza para gestionar la lógica de la aplicación y la manipulación del DOM de manera dinámica.
-* Next.js (SSR): Renderiza el HTML en el servidor para mejorar la velocidad de carga y el SEO.
+* JavaScript: Se utiliza para gestionar la lógica de la aplicación y la manipulación del DOM de manera dinámica.
+* Next.js: Renderiza el HTML en el servidor para mejorar la velocidad de carga y el SEO.
 
 ## 🧑🏿‍💻 Herramientas de Desarrollo
 * VSCode: Editor de código ligero con soporte para JavaScript, TypeScript y React.
