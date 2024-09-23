@@ -43,7 +43,7 @@
 * Usar frameworks como React o Next.js, que optimizan automáticamente el código para asegurar que funcione en la mayoría de los navegadores.
 
 ## 🧑🏿‍💻 Mecanismos de Integración de los Lenguajes de Marcas con los Lenguajes de Programación
-#### En aplicaciones web modernas, los lenguajes de marcas como HTML se combinan estrechamente con los lenguajes de programación, como JavaScript.
+#### En aplicaciones web modernas, los lenguajes de marcas como HTML se combinan con los lenguajes de programación, como JavaScript.
 
 * HTML es la base estructural de cualquier página web, y se complementa con JavaScript para la manipulación dinámica del DOM. Esto permite cambiar el contenido, estilo y estructura de una página web sin tener que recargarla por completo.
 * En React, el uso de JSX (una extensión de JavaScript que permite escribir código HTML dentro de JavaScript) facilita la integración del HTML y la lógica de la aplicación.
