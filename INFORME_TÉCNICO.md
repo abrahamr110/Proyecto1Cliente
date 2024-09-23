@@ -7,15 +7,15 @@
 * Ventajas: Mayor interactividad, mejor experiencia de usuario después de la carga inicial.
 * Desventajas: Mala optimización para motores de búsqueda (SEO) y tiempos de carga inicial más lentos.
 
-#### Comparación:
-* CSR es ideal para aplicaciones que requieren mucha interactividad en el cliente, como paneles de control o aplicaciones SPA (Single Page Application).
-* SSR es más adecuado para aplicaciones donde el SEO es crucial, como sitios web de comercio electrónico o plataformas como TicketHub, donde los eventos deben ser fácilmente rastreados por motores de búsqueda y las páginas deben cargarse rápidamente.
-
 #### Server-Side Rendering (SSR):
 * En SSR, las páginas se renderizan en el servidor y se envían al navegador del usuario como HTML completo. Esto reduce el tiempo de carga inicial y mejora el SEO, ya que los motores de búsqueda pueden leer el contenido renderizado.
 * Ejemplo: Usar Next.js con React para generar el HTML en el servidor antes de enviarlo al cliente.
 * Ventajas: Mejor SEO, tiempos de carga inicial más rápidos, especialmente útil para contenido dinámico.
-* Desventajas: Requiere más recursos en el servidor, lo que puede ser costoso en grandes aplicaciones.
+* Desventajas: Requiere más recursos en el servidor, lo que puede ser costoso en grandes aplicaciones.  
+
+#### Comparación:
+* CSR es bueno para aplicaciones que requieren mucha interactividad en el cliente, como paneles de control o aplicaciones SPA (Single Page Application).
+* SSR es más adecuado para aplicaciones donde el SEO es crucial, como sitios web de comercio electrónico o plataformas como la mía TicketHub, donde los eventos deben ser fácilmente rastreados por motores de búsqueda y las páginas deben cargarse rápidamente.
 
 ## 📄 Evaluación de los Lenguajes de Programación Web Seleccionados
 #### JavaScript
