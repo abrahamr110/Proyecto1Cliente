@@ -36,6 +36,6 @@
 * Node.js y Express: Node.js es perfecto para manejar grandes cantidades de solicitudes en tiempo real, ideal para un sistema que involucra compra y reventa de entradas. Además, es rápido y escalable, lo que lo convierte en una opción sólida para el backend.
 * MongoDB: Su flexibilidad permite almacenar datos estructurados y no estructurados con facilidad, como el historial de compra de los usuarios y las reseñas de eventos.
 
-## Referencias
+## Bibliografía
 * https://www.smashingmagazine.com/
 * https://web.dev/
