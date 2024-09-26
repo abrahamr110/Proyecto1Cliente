@@ -64,3 +64,10 @@
 * Seguridad mejorada con Blockchain: TicketHub utilizará blockchain para verificar la autenticidad de las entradas, eliminando las posibilidades de fraude en la reventa de tickets.
 * Personalización avanzada: TicketHub incorporará algoritmos de recomendación que sugerirán eventos según los intereses y comportamientos de los usuarios, proporcionando una experiencia más personalizada.
 
+## Referencias
+* https://react.dev/
+* https://nextjs.org/
+* https://stackoverflow.com/
+* https://dev.to/
+
+
